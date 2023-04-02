@@ -52,3 +52,19 @@ Start the server
 To deploy this project run
    data = pd.read_csv("kc_house_data.csv")
 ```
+After loading the data in our DataFrame we go on to do our data preparation on it so as to optimize on our modelling
+some of the EDA practices we do take into consideration include;
+        1.Detecting missing values
+        2.Identifying duplicated values
+        3.Dealing with outliers
+        4.Normalizing our data
+        5.Check on the distribution of our dataset
+  
+  
+Moving on to data Regression Analysis we will;
+     - Checking the attainment of our regression assumptions
+     - Encoding data and scaling our dataset
+     - Dealing with overfitting and underfitting
+     - Identifying the validation strategy to use to check that our model works well on unseen data
+     - Knowing the loss function to use
+     - the threshold of performance to consider as successful
